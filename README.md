@@ -31,6 +31,6 @@ gantt
     系統修正     : a9 , after a7 , 5d
 ```
 # pert 圖
-![pert](pert_diagram 的副本 (1).jpg "PERT圖") 
+![pert](pert_diagram 第13組.png "PERT圖") 
 # 關鍵路徑
-1->2->3->4->5->6->7->8
+1->2->4->5->6->7->8
