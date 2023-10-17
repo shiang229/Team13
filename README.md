@@ -30,4 +30,7 @@ gantt
     使用者測試   : a8 , after a7 ,7d
     系統修正     : a9 , after a7 , 5d
 ```
-
+# pert 圖
+![pert](pert_diagram 的副本 (1).jpg "PERT圖") 
+# 關鍵路徑
+1->2->3->4->5->6->7->8
