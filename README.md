@@ -16,14 +16,20 @@
 |     8    |  使用者測試  |       7       |      7      |王翔、邱楊智、賴蔚霆|
 ---
 ### 甘特圖
+### 甘特圖
 ```mermaid
 gantt
     title 甘特圖
-　　決定主題     : a1 , 2023-10-03 , 5d
-    採集文獻     : a2 , after a1 , 3d
-    資料分析    : a3 , after a1 , 2d
-    程式開發     : a4 , after a2 , 15d
-    系統測試     : a5 , after a4 , 10d
+　　決定主題     : a1 , 2023-10-03 , 1d
+    研擬計畫     : a2 , after a1 , 2d
+    任務分配     : a3 , after a1 , 1d
+    蒐集資料     : a4 , after a3 , 7d
+    資瞭統整     : a5 , after a4 , 3d
+    程式編寫     : a6 , after a5 , 70d
+    程式測試     : a7 , after a6 , 10d
+    使用者測試   : a8 , after a7 ,7d
+```
+---
     系統修正     : b1 , after a4 , 8d
     使用者測試     : a6 , after a4 a5 , 32d
     設想新功能     : a7 , after a6 , 1d
